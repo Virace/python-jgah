@@ -4,5 +4,5 @@
 
 ## 随心篇
 
-- # Python之点到为止: 下载Youtube视频  —— https://virace.cc/py-youtube.html
+- Python之点到为止: 下载Youtube视频  —— https://virace.cc/py-youtube.html
 
