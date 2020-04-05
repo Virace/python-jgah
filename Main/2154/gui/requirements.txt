@@ -1,0 +1,3 @@
+cefpython3==66.0
+pywin32==227
+
