@@ -36,7 +36,7 @@ class BindFunction:
             callback.Call(False, '提交格式不正确')
         elif data['username'] == '' or data['password'] == '':
             callback.Call(False, '用户名密码不能为空')
-        elif data['username'] == DEFAULT_USERNAME or data['password'] == DEFAULT_PASSWORD:
+        elif data['username'] == DEFAULT_USERNAME and data['password'] == DEFAULT_PASSWORD:
             callback.Call(True)
         else:
             callback.Call(False, '用户名或密码错误.')
